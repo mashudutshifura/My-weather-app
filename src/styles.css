@@ -73,8 +73,8 @@ main {
 }
 
 .current-weather-icon {
-  width: 48px;
-  height: 44px;
+  width: 88px;
+  height: 88px;
 }
 
 .current-temperature-value {
