@@ -15,7 +15,7 @@ function displayTemperature(response) {
   humidityElement.innerHTML = `${response.data.temeprature.humidity}%`;
   windSpeedElement.innerHTML = `${response.data.wind.speed}km/h`;
   temperatureElement.innerHTML = Math.round(temperature);
-  iconElement.innerHTML = ` <img src="${response.data.condition.icon_url}" class="weather-app-icon"/>`;
+  iconElement.innerHTML = ` <img src="${response.data.condition.icon_url}" class="current-weather-icon"/>`;
 }
 
 function formatDate(date) {
@@ -42,6 +42,7 @@ function formatDate(date) {
 function searchCity(city) {
   let apiKey = "b2a5adcct04b33178913oc335f405433";
   let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
+
   axios.get(apiUrl).then(displayTemperature);
 }
 
@@ -55,4 +56,4 @@ function search(event) {
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", search);
 
-searchCity("Paris");
+searchCity("Pretoria");
