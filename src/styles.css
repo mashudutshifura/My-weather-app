@@ -88,6 +88,21 @@ main {
   margin-top: 6px;
 }
 
+.weather-forecast {
+  margin-top: 20px;
+
+  color: black;
+}
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.6;
+}
+.weather-forecast-degrees {
+  font-size: 13px;
+}
+.weather-forecast-degrees-min {
+  opacity: 0.6;
+}
 footer {
   border-top: 1px solid #f9f7fe;
   text-align: center;
