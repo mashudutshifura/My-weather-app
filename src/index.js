@@ -71,7 +71,7 @@ function displayForecast() {
           <div class="weather-forecast-degrees-max">
             <strong>15º</strong>
           </div>
-          <div class="weather-forecast-degree-min">9º</div>
+          <div class="weather-forecast-degrees-min">9º</div>
         </div>
       </div>
     `;
