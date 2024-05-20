@@ -9,7 +9,6 @@ a {
 }
 
 .weather-app {
-  background: url("src/image/background.jpg");
   max-width: 600px;
   margin: 60px auto;
   padding: 30px;
